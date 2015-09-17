@@ -1,0 +1,57 @@
+html {
+	background: #f5f5dc;
+}
+
+.main {
+	width: 68%;
+	max-width: 978px;
+	height: 100%;
+	max-height: 1000px;
+	margin: 0 auto;
+	background: #FFF;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: #cb410b;
+	text-align: center;
+}
+
+.nav {
+	padding-left: 0;
+	list-style: none;
+}
+
+.nav > li {
+	display: inline-block;
+}
+
+.nav.center {
+	text-align: center;
+}
+
+.nav.right {
+	text-align: right;
+}
+
+.primary a {
+	display: block;
+	padding: 1em;
+	color: #fff;
+	background: #000033;
+}
+
+.primary > li + li {
+	margin-left: 10px;
+}
+
+@media (max-width: 760px) {
+
+	.primary > li {
+		display: block;
+	}
+
+	.primary > li + li {
+		margin-top: 10px;
+		margin-left: 0;
+	}
+}
